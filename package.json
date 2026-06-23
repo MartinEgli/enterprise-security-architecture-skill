@@ -1,0 +1,17 @@
+{
+  "name": "enterprise-security-architecture-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enterprise Security Architecture skill for threat, risk, control, security target architecture, and secure design review.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skill.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "scaffold": "node scripts/scaffold-skill.mjs",
+    "package": "node scripts/package-skill.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

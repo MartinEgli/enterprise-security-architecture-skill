@@ -1,0 +1,7 @@
+interface:
+  display_name: "Enterprise Security Architecture"
+  short_description: "Threat, risk, and control review"
+  default_prompt: "Use $enterprise-security-architecture to review this design for threats, controls, residual risk, and approval conditions."
+
+policy:
+  allow_implicit_invocation: true
