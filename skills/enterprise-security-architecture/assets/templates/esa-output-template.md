@@ -20,6 +20,16 @@
 
 ## Approval Recommendation
 
+## Clean AI Security Check
+
+- AI boundary:
+- Data exposure:
+- Tool permissions:
+- Output validation:
+- Human control:
+- Fallback:
+- Logging/audit:
+
 ## Required Actions
 
 ## Blocked Next Steps

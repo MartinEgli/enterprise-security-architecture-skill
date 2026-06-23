@@ -10,3 +10,4 @@ security architecture decisions.
 - `/esa controls`
 - `/esa target`
 - `/esa decision`
+- `/esa clean-ai`

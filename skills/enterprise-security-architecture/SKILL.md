@@ -4,7 +4,8 @@ description: >
   Enterprise Security Architecture skill for secure design review, threat and
   risk assessment, control mapping, Zero Trust target architecture, security
   patterns, data protection, identity and access architecture, cloud security,
-  security governance, and security approval recommendations.
+  AI security architecture, Clean AI security controls, security governance,
+  and security approval recommendations.
 ---
 
 # Enterprise Security Architecture
@@ -27,6 +28,7 @@ Use when the user asks for:
 - identity and access architecture
 - data protection architecture
 - cloud or platform security architecture
+- AI security architecture or Clean AI controls
 - security governance or approval recommendation
 - security risk treatment
 
@@ -61,6 +63,7 @@ business roadmap work unless security is the main concern. Use
 - regulatory or policy constraints
 - threat scenarios
 - target deployment context
+- AI model, prompt, agent, tool, or data flow context when AI is involved
 
 ## Modes
 
@@ -89,6 +92,12 @@ Create target security architecture and transition recommendations. Read
 Prepare security architecture decision recommendation and approval conditions.
 Read `references/security-governance.md`.
 
+### /esa clean-ai
+
+Review AI-enabled systems for security, privacy, abuse, prompt/tool exposure,
+data protection, logging, human control, and residual risk. Read
+`references/clean-ai-security.md`.
+
 ## Evidence Handling
 
 - Evidence: supplied architecture, policy, inventory, control, source, or user
@@ -111,6 +120,8 @@ format.
 - Residual risk is stated.
 - Approval conditions are explicit.
 - Human security review is required for high or critical risk.
+- AI-enabled systems define model, prompt, tool, data, logging, fallback, and
+  human-control boundaries.
 
 ## Boundaries
 
