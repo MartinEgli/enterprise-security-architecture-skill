@@ -5,7 +5,8 @@ description: >
   risk assessment, control mapping, Zero Trust target architecture, security
   patterns, data protection, identity and access architecture, cloud security,
   AI security architecture, Clean AI security controls, security governance,
-  and security approval recommendations.
+  security diagrams using Mermaid or PlantUML, trust boundary diagrams, threat
+  model diagrams, control maps, and security approval recommendations.
 ---
 
 # Enterprise Security Architecture
@@ -29,6 +30,8 @@ Use when the user asks for:
 - data protection architecture
 - cloud or platform security architecture
 - AI security architecture or Clean AI controls
+- security diagrams such as trust boundaries, data flows, attack paths, control
+  maps, or Zero Trust views
 - security governance or approval recommendation
 - security risk treatment
 
@@ -54,6 +57,8 @@ productive-use governance of AI-generated artifacts. Use
 - Do not claim compliance, legal adequacy, or production approval without
   verified source and accountable human approval.
 - Prefer defense-in-depth and least privilege.
+- When creating diagrams, stay within security architecture scope and read
+  `references/diagrams.md`.
 - Preserve supplied system names, control IDs, data classifications, and
   regulatory terms exactly.
 - If asset, data classification, trust boundary, or identity context is missing,
@@ -110,6 +115,12 @@ Review AI-enabled systems for security, privacy, abuse, prompt/tool exposure,
 data protection, logging, human control, and residual risk. Read
 `references/clean-ai-security.md`.
 
+### /esa diagram
+
+Create or review security architecture diagrams using Mermaid or PlantUML:
+trust boundaries, data flows, threat paths, control maps, Zero Trust views, or
+AI security flows. Read `references/diagrams.md`.
+
 ## Evidence Handling
 
 - Evidence: supplied architecture, policy, inventory, control, source, or user
@@ -134,6 +145,8 @@ format.
 - Human security review is required for high or critical risk.
 - AI-enabled systems define model, prompt, tool, data, logging, fallback, and
   human-control boundaries.
+- Diagrams show assets, identities, trust boundaries, data classification,
+  threats, controls, and residual risk without turning into exploit guidance.
 
 ## Boundaries
 
@@ -148,4 +161,6 @@ format.
 - Structured and risk-oriented.
 - Use concise findings.
 - Prefer tables for threat/control mapping.
+- Use Mermaid for quick reviewable diagrams and PlantUML when stable
+  architecture-as-code or more explicit boundaries are needed.
 - Use exact security terms and control IDs when supplied.
