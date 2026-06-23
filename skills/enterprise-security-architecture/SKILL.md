@@ -38,6 +38,14 @@ Do not use for general Enterprise Architecture strategy, capability maps, or
 business roadmap work unless security is the main concern. Use
 `enterprise-architecture` for general EA work.
 
+Do not use for code-level Clean Architecture, Clean Coding, API design, or DDD
+modeling unless the question is specifically about security risk or controls.
+Use `software-architecture` or `domain-driven-design` for those.
+
+Do not use for final evidence acceptance, architecture gate approval, or
+productive-use governance of AI-generated artifacts. Use
+`mournival-architecture` for those.
+
 ## Mandatory Rules
 
 - Start from asset, data, trust boundary, identity, threat, and business impact.
@@ -48,8 +56,12 @@ business roadmap work unless security is the main concern. Use
 - Prefer defense-in-depth and least privilege.
 - Preserve supplied system names, control IDs, data classifications, and
   regulatory terms exactly.
+- If asset, data classification, trust boundary, or identity context is missing,
+  mark the review as incomplete and state the security impact of the gap.
 - Escalate critical risk and unclear data classification to human security
   review.
+- Escalate non-security architecture strategy to `enterprise-architecture` and
+  code or service design concerns to `software-architecture`.
 
 ## Inputs Expected
 
