@@ -54,6 +54,8 @@ productive-use governance of AI-generated artifacts. Use
 - Start from asset, data, trust boundary, identity, threat, and business impact.
 - Separate threat, vulnerability, risk, control, residual risk, and decision.
 - Mark assumptions and missing evidence.
+- Keep findings, risks, controls, and approval conditions traceable to supplied
+  inputs, referenced sources, or clearly marked assumptions.
 - Do not claim compliance, legal adequacy, or production approval without
   verified source and accountable human approval.
 - Prefer defense-in-depth and least privilege.
@@ -123,6 +125,8 @@ AI security flows. Read `references/diagrams.md`.
 
 ## Evidence Handling
 
+Use `references/evidence-traceability.md`.
+
 - Evidence: supplied architecture, policy, inventory, control, source, or user
   fact.
 - Inference: reasoned conclusion from evidence.
@@ -140,6 +144,7 @@ format.
 - Trust boundaries are visible.
 - Threats and risks are separated.
 - Controls map to risks.
+- Risks and controls include source trace or are marked as assumptions.
 - Residual risk is stated.
 - Approval conditions are explicit.
 - Human security review is required for high or critical risk.
