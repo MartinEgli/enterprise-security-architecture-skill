@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Enterprise Security Architecture">
+  <rect width="128" height="128" rx="24" fill="#0F172A"/>
+  <path d="M64 20 101 34v26c0 25-15 41-37 50-22-9-37-25-37-50V34l37-14Z" fill="#14B8A6"/>
+  <path d="M64 33v62" stroke="#CCFBF1" stroke-width="7" stroke-linecap="round"/>
+  <path d="M48 63 60 75l22-27" fill="none" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 42 64 31l29 11" fill="none" stroke="#99F6E4" stroke-width="5" stroke-linecap="round"/>
+</svg>
