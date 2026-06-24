@@ -133,6 +133,9 @@ Use `references/evidence-traceability.md`.
 - Assumption: useful but unverified.
 - Gap: missing item that can change risk or approval.
 
+Include an Evidence Receipt for substantial findings, decisions, diagrams, or
+recommendations.
+
 ## Output Contracts
 
 Use `assets/templates/esa-output-template.md` unless user asks for another
