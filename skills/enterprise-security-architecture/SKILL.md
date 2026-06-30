@@ -123,9 +123,22 @@ Create or review security architecture diagrams using Mermaid or PlantUML:
 trust boundaries, data flows, threat paths, control maps, Zero Trust views, or
 AI security flows. Read `references/diagrams.md`.
 
-## Evidence Handling
 
-Use `references/evidence-traceability.md`.
+### /enterprise-security-architecture feedback
+
+Capture lessons from the current run without changing the skill automatically.
+Use eferences/feedback-route.md to classify user feedback, observed gaps,
+assumptions, candidate improvements, rejected ideas, and routed follow-ups.
+
+### /enterprise-security-architecture improve
+
+Review accumulated feedback and propose concrete skill changes. Use
+ssets/improvement-proposal-template.md. Do not modify behavior until the
+proposal names evidence, affected files, risks, validation commands, versioning
+impact, and rollback considerations.
+## Evidence Handling
+Use `references/evidence-traceability.md`.
+Use eferences/feedback-route.md when capturing or applying lessons from a run.
 
 - Evidence: supplied architecture, policy, inventory, control, source, or user
   fact.
@@ -164,8 +177,15 @@ format.
 - Do not invent policy, regulatory, or control evidence.
 - Do not approve production use with unresolved high or critical risk.
 
-## Output Style
 
+## Continuous Improvement
+
+This skill is self-improving only through an explicit, auditable feedback loop:
+feedback -> evidence -> improvement proposal -> feature branch -> validation ->
+commit -> push -> version or changelog update when needed. Do not silently alter
+skill behavior based on a single run. Preserve rejected and deferred ideas so
+future maintainers can see why they were not applied.
+## Output Style
 - Structured and risk-oriented.
 - Use concise findings.
 - Prefer tables for threat/control mapping.
